@@ -18,7 +18,7 @@
         default_layer {
             bindings = <
                 // row0左から右へ（一番左のキーはリセットボタン）
-                &bt BT_NXT  &kp BACKSPACE  &kp SPACE  &kp ENTER
+                &bt BT_NXT  &kp BACKSPACE  &kp LG(DOWN)  &kp ENTER
             >;
 	};
 
